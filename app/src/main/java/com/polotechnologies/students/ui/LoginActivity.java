@@ -1,14 +1,16 @@
-package com.polotechnologies.students;
+package com.polotechnologies.students.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class NewStudentActivity extends AppCompatActivity {
+import com.polotechnologies.students.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_student);
+        setContentView(R.layout.activity_login);
     }
 }
